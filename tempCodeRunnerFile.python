@@ -1,0 +1,32 @@
+## ass2 
+## selection sort in python
+
+def selection(self,n,li):
+    
+    sorted=[]
+    for i in range(n):
+      
+       for j in range(n):
+           
+           if(li[i] < li[j]):
+               
+               min=li[i]
+               
+            
+    
+       sorted.append(min)
+       
+       print(sorted)
+       
+def main():
+    
+    n=int(input("ENTER THE NO. OF ELEMENT"))
+    
+    li=[]
+    for i in range(n):
+        el=int(input("\n ENTER THE ELEMENT"))
+        li.append(el)
+        
+    selection(n.li)
+    
+main()
